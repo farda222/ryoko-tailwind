@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryoko</title>
+    <link rel="shortcut icon" type="x-icon" href="Asset/logo.png" />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      .custom-cursor {
+        width: 24px;
+        height: 24px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9999;
+      }
+      a:hover,
+      button:hover {
+        cursor: none;
+      }
+
+      a:hover .custom-cursor,
+      button:hover .custom-cursor {
+        border: 10px solid #ffff; /* Ganti dengan tampilan cursor yang diinginkan saat menghover */
+      }
+    </style>
+  </head>
+  <body class="bg-black cursor-none">
+    <nav class="flex items-center justify-between bg-bg py-4 px-8">
+      <div class="flex items-center">
+        <img src="Asset/logo.png" alt="Logo" class="h-8 w-8 md:h-12 md:w-12 lg:-mt-2" />
+      </div>
+      <div class="flex justify-center md:justify-start lg:justify-center lg:items-center lg:ml-40">
+        <ul class="flex space-x-10 md:space-x-20 lg:space-x-24">
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">Home</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">About</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">Project</a></li>
+        </ul>
+      </div>
+      <div class="hidden md:block">
+        <a class="bg-neutral-800 hover:bg-white text-white font-bold py-2 px-4 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Get in Touch</a>
+      </div>
+    </nav>
+    <img class="container flex justify-end ml-[14vh] mt-20 w-[100%] md:ml-[18vh] lg:w-[60%] lg:container lg:justify-center lg:items-center lg:align-middle lg:flex lg:mx-60 lg:mt-2 2xl:mx-96" src="Asset/car.png" />
+    <div class="container">
+      <h1
+        class="bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-4xl w-56 flex-col mx-14 z-0 text-start -mt-72 md:-mt-[29rem] md:text-5xl md:w-[22rem] md:mx-16 lg:mx-56 lg:-mt-[28rem] 2xl:-mt-[38rem] 2xl:mx-[26rem]">
+        Hello,im Arif Im a FrontEnd Student
+      </h1>
+      <h1
+        class="bg-gradient-to-l from-white to-neutral-700 text-transparent bg-clip-text text-4xl w-[12rem] mx-14 mt-10 justify-start flex-col text-start md:text-5xl md:w-[14rem] md:mx-16 lg:text-end lg:mx-[49rem] lg:mt-20 2xl:mt-48 2xl:mx-[70rem]">
+        Best Website Developer
+      </h1>
+    </div>
+    <div class="container mx-auto justify-center align-middle items-center flex mt-14">
+      <a
+        href="#"
+        class="bg-neutral-800 text-white py-4 px-20 rounded-bl-xl rounded-tr-xl active:bg-white active:text-black border border-neutral-700 transition-all active:border-black hover:px-14 hover:rounded-full hover:border-neutral-50 hover:-mt-2 md:py-6 md:px-24 md:text-xl lg:-mt-8">
+        Latest Projects
+      </a>
+    </div>
+    <div class="border border-neutral-600 mx-11 mt-14 2xl:mb-32"></div>
+    <div class="container justify-center align-middle flex mb-20 md:mx-4 2xl:mx-44">
+      <h1 class="justify-center align-middle flex bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-3xl w-80 text-center mt-14 md:w-[45rem] md:text-5xl lg:w-[54rem]">
+        Collaborate with brands and agencies to create impactful results.
+      </h1>
+    </div>
+    <div class="container flex justify-center md:mx-4 lg:mx-1 2xl:mx-44">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:gap-12">
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md transition-all" data-tilt data-tilt-glare>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvNlesNAiEQhGc70U60Eu3EsxLtREs5KxmzBC68WfUukZ9AZpjlWxBsPGRjffyPAckLgAOAHYC7iFwt6YcJvPDZC8eas8Woa0Dy4U+twk4QwAuAptEkOp4icmylGRmwJkLyBkBTuSEiTR2rQZygKNdaBkX9AUxrJggGUyCIpCvhVwk8Pe6E8Qhi2fpiWuzPJzpYLgn8BQeKwnwV2+SSjVgmgiNscwMTljn7PWxbBnpKbSqNXetiM7Y9gyaWla4NXV5gazEosMwMutiODGYR2avgJ9jGfdGjqFvnKIWWJb6n5PHLDZRtffPj13KEpb0Pwk6SwehU+2BG60nnV4hYdWr4o/3qtrnBG0rkoBlyP3ItAAAAAElFTkSuQmCC" />
+            <h1 class="mb-2 text-white text-xl">Web Developer</h1>
+            <p class="text-white text-sm opacity-30">With HTML,CSS,Tailwind, and Javascript im ready to build every website.</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZlJREFUSEu1VVtOwzAQnL0JPQn0JvQXvvmmHAJ+aU8CnITeZNBEXmu9ceIGqZYixYozszP7sOHGy26MjyEByUcA9wAeQjAXAN8AfgBczEz77lokICnA1wTcAxHRYYmkS0BSwMeCpujeFLFASN4B0CNVUqd3raOZ6VyzZgQJXJGd1vJUzjvRjKQhKLZ8FcC9mUk+SL4DeALwYWbPnb0UO0n9T/9mgt8iuYmEJF2FmVnelyDcVlm5r+f9JUSvqthFW0YKAoYHuPOkVwXB+yn6DHpNvwSMk5kdGotIynuV5uRhz4YRSXCh2hQVuM9O0CR2BB5smnCUq6xg5t8INHT5WR1dzgun5jEqaAjWcpDKuRdHrcJI8Flq2ZPclGawQJ2rYLTUJ3qUO+/wmuBskQ4p0ZKqOn6JzRUIvN4boCU7r2q01BNO0J09mag3KmSV5HbnUEmszmxXkFpeW03Ucx7F3iNeimvVtjaufXgpiV6Gyo/UTbnKI6VHtHbhiEB++7zP///PoowSbjZ96pbiZotGHbzl+/DS3wLWO/sHp0vxGc8TaX4AAAAASUVORK5CYII=" />
+            <h1 class="mb-2 text-white text-xl">UI/UX Designer</h1>
+            <p class="text-white text-sm opacity-30">Im ready to for designing a modern website using figma.</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWhJREFUSEu1VgFuwkAMs38yXrLxksFLxl4yeMn4yfiJkatLdU2vtGrXkxCg5uIkdgzEzoc758cIQNIbgE8AFwAPAFeS32sLaQH8AvhICR8kD2tABgCSTgB+SqJIaEB3dSR5r0EkuZCv8tyPRt1mAAd7NA48+4YkAxr4TPIaACW5wfMZFJIBXOlfmb0BzEF0cCDp792R5DjHG9QcBW93kseIa3EQFdeVDS4VAPmdZJejiKMrruZrTkW+e2mpSFKIwSO9FS48yn68XQFTypA0qDDHreIgKeQlQDWW4Mj8mOCep00dNMgeyXgzgKSQdU92HuUWDvrkrSWclGnVekuG1v17WTx/ju3tlrJ1mh3UrU9dLEs4InV2RJW+c6zV4Zf96JbVsriD0D+AWbN70V3/aMpNa7MLMpsbPQeSAWy/XhyPIpvdwE3nEjdVVAzLZpd/cEZmtwqgWn9br40rZPh/P5lLK1sat/u/iicmsbQZnoL1yAAAAABJRU5ErkJggg==" />
+            <h1 class="mb-2 text-white text-xl">Deployment</h1>
+            <p class="text-white text-sm opacity-30">I will deploy any website that i build or not</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUtJREFUSEvFVe1tw1AI5DZpJmkzSeNJkkzSdJJ6k2QTorNAws/g5z9PfZIV5X1wcMABGbww2L6kAKp6FZFfAC86YP+/RIQf9/jNAO52/sEzAI/W4Q2AGbuZERogGA1ki0A06uBTC5IB0NhfY3QWkTuAWVUXb0Xk234d+AXg1I0ghPy0yw8AU+Z+iFYApHRXObiIyI/xfN4rBFVltIzo5jmJ9ysAek8qNpy2YKpK4wRh0jfO9ABOXklVFJYTOtTPgarqKjzjtd33O8579Y73VhEMB3DPHKiqjCQPS+TZ/SoH5YOiXI8BDKdoOEDIgfdBt0yt849RFAC8O8/Un04ne9enkvJvUhEVNdUYo4Z6xQjSLt40WqQiaAy3qfucDU4XHeCcoA5xlVTujkzTmXY2RD8ITEEs89SdyWHAfAaPVyNzrwi6AHuPj5wNB3gDZe/GGWVymHEAAAAASUVORK5CYII=" />
+            <h1 class="mb-2 text-white text-xl">Bug Fixer</h1>
+            <p class="text-white text-sm opacity-30">I also as services at debugging for any website for but just for my client</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container justify-center align-middle flex md:mx-4 lg:mx-0 2xl:mx-44 2xl:mt-40">
+      <h1 class="bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-3xl text-center mt-24 md:text-5xl md:w-[35rem] lg:w-[50rem]">Let’s discusses About Our New Or Next Projects</h1>
+    </div>
+    <div class="container mx-auto justify-center align-middle items-center flex mt-24 2xl:mx-44">
+      <button class="bg-neutral-800 active:bg-white active:text-black text-white py-5 px-7 rounded-3xl transition-all flex active:py-5 active:px-6 md:px-14 md:py-7 md:text-lg">
+        Get in Touch
+        <img
+          class="ml-[1vh] md:mt-0.5"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtldENwjAMRN9tApvAJNBJgElgE8oksImRoxKF0NA2lB+EpX619vOdE1d8OfTl+vwQwMxWwBFYfGjbDWgktV4nWmRmZ8Ahc8RN0jIHWFd5D/hTEydgGwpLoflUQQD4iwq7oi1mFusUAf7CzHwWmxFqTpKaJOf6VgHg3XjSoUsqDf9pmJ1qn2OIokWJ8fsEkqvJu35ROgbgrD413l04gnnX6akYC3jkRDVj5zMVENUAFyB6XTrLNYBJ9+IPGLSrz6I5l10raZ2vCr+xuxk2av+6HtRc+cEP/TIrHRhMuwMSH4MZVFyRDAAAAABJRU5ErkJggg==" />
+      </button>
+    </div>
+    <div class="custom-cursor"></div>
+    <footer class="bg-neutral-700 text-white py-2 mt-48 md:py-4">
+      <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between px-5">
+        <div class="mt-3 md:-mt-0">
+          <span>&copy; 2023 Your Company. All rights reserved.</span>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEu1VYltwzAMPG7STtJmkjaTNJ2kySRNJmk2YXGGKJy+yA5gAobhROTxjo8MO5vtHB9TAHd/B/AGgG8+9/RcAdzMjO+hDQHc/QXATwr6KAYBD2bGd2NdAHf/AnDaIB+Dn83su/ZpANz9M2W+IX4+eqpBCoAky186Tm2PAD6ETchA+WhkeQNAxlGfo9alBvgVzUmZACCwatz5VknvZvYanDJAR5oMMNPK3dkMlDaMRV+66xFAPrQCgJKFtIt0UQsF0CwKmjOAJKPKezWzQ82AGUTx8oE1wRNAN0FloADPMFB/mNkSWwGU4jMALmxzgyhAPb1bumjoqwAcFLJQayZT/0yDqYM4blPpBBaaA8YNykmN7ckJzQvN3VVSxS0aZLQqlg0pK4BOy1SHdYaryb4osjiGnjN5ehuXLM+ayGxdhzyX2rGz0pvgXQbCRC+cho0AMIlig04ZdDqFg1PcWKmDmt/ryZ/eyWtXxejc7gD/L3LHGbzDm/0AAAAASUVORK5CYII=" />
+            </svg>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOhJREFUSEvtVIENwjAMsz+BT+ATdgl8wj5hn7BPglw1FZvK1K4bEhKVqm1aE9eOE2LnxZ3z47sAZvYAcGpkNZI8eo4JAzOzxuQhnGTKuwQwABgBXGpBSwB6kp0Sr5GtBGAgeY4A91oWJQCSxiW67SGRALS1DnEL0L/19DP6P3FeCYP3GgSJPMjMQjKSDqg6XQEkpk0AObnMTCyeyfsFNv3IYOasjmQ/d1sTgyiROl4ra+dWADWe6jIHSHb+A2wikXeydJbvZcPglvjujZU7VzxNaydEOr9U5OrBlrlFGpSh41dfszDw9wFeYv3NGZpLGlwAAAAASUVORK5CYII=" />
+            </svg>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYlJREFUSEvFVU1Kw2AUnFm7dq97UbyA2mMIgnYrKHgC7Q0Udd0KgnsvYL2BeAHryoV7F25GJr7050tSmoTSD0pokvdm5v1MiCUfLjk/VgMgaQPAMYCD+FUJHcWDIYAeyfz/+P2CAkknAPoNSufkA5K96dgZgGD+0SB5HmKQLkkryk4KYOZWUOd0AOwDuIogq+hWAZi96192BgDM8DMSmsiI5GZS1iFJg5YqUEnmsWxJ65ls8jvK+RLvT5PKQOsAmM0vgKNgbhKvAB4BfAEo9IzkuPRpD1IFWT0l3QM4TdTdkTyTZBUe58lo1gBws56D8VYC8E5yR9LlVIP/614DwJNxC8AstxOAN5K7bQGyiZB0A+A8AbgmeSGpMNp1FGQTBOAHwCGAvQBxk58ArIW6Gew6AA4sbKdvSnJj8zFdGKAwERFpEK9/bmbzTHDuojWxinQ351qFN7KN2RmsU2l2Udumdu1wO6k9a7J0Jd7jBlqJF8jXmS2t8ConfVjog1MG2Obear7JbRinsX8MPqIZScB6mgAAAABJRU5ErkJggg==" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cursor = document.querySelector(".custom-cursor");
+
+        document.body.addEventListener("mousemove", function (e) {
+          const x = e.clientX;
+          const y = e.clientY;
+
+          cursor.style.transform = `translate(${x}px, ${y}px)`;
+        });
+      });
+    </script>
+  </body>
+</html>
