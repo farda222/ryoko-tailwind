@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,7 +29,7 @@
       }
     </style>
   </head>
-  <body class="bg-black cursor-none">
+  <body class="bg-black cursor-none overflow-x-hidden">
     <nav class="flex items-center justify-between bg-bg py-4 px-8">
       <div class="flex items-center">
         <img src="Asset/logo.png" alt="Logo" class="h-8 w-8 md:h-12 md:w-12 lg:-mt-2" />
@@ -71,16 +71,16 @@
     </div>
     <div class="container flex justify-center md:mx-4 lg:mx-1 2xl:mx-44">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:gap-12">
-        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md transition-all" data-tilt data-tilt-glare>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
           <div class="p-4 my-20">
             <img
               class="mb-3 w-10 h-10"
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvNlesNAiEQhGc70U60Eu3EsxLtREs5KxmzBC68WfUukZ9AZpjlWxBsPGRjffyPAckLgAOAHYC7iFwt6YcJvPDZC8eas8Woa0Dy4U+twk4QwAuAptEkOp4icmylGRmwJkLyBkBTuSEiTR2rQZygKNdaBkX9AUxrJggGUyCIpCvhVwk8Pe6E8Qhi2fpiWuzPJzpYLgn8BQeKwnwV2+SSjVgmgiNscwMTljn7PWxbBnpKbSqNXetiM7Y9gyaWla4NXV5gazEosMwMutiODGYR2avgJ9jGfdGjqFvnKIWWJb6n5PHLDZRtffPj13KEpb0Pwk6SwehU+2BG60nnV4hYdWr4o/3qtrnBG0rkoBlyP3ItAAAAAElFTkSuQmCC" />
+              src="data:image/png;base64,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" />
             <h1 class="mb-2 text-white text-xl">Web Developer</h1>
-            <p class="text-white text-sm opacity-30">With HTML,CSS,Tailwind, and Javascript im ready to build every website.</p>
+            <p class="text-white text-sm opacity-30">Im ready to develop any website using html css js and tailwind</p>
           </div>
         </div>
-        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
           <div class="p-4 my-20">
             <img
               class="mb-3 w-10 h-10"
@@ -89,7 +89,7 @@
             <p class="text-white text-sm opacity-30">Im ready to for designing a modern website using figma.</p>
           </div>
         </div>
-        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
           <div class="p-4 my-20">
             <img
               class="mb-3 w-10 h-10"
@@ -98,7 +98,7 @@
             <p class="text-white text-sm opacity-30">I will deploy any website that i build or not</p>
           </div>
         </div>
-        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md" data-tilt data-tilt-glare>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
           <div class="p-4 my-20">
             <img
               class="mb-3 w-10 h-10"
@@ -120,7 +120,7 @@
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtldENwjAMRN9tApvAJNBJgElgE8oksImRoxKF0NA2lB+EpX619vOdE1d8OfTl+vwQwMxWwBFYfGjbDWgktV4nWmRmZ8Ahc8RN0jIHWFd5D/hTEydgGwpLoflUQQD4iwq7oi1mFusUAf7CzHwWmxFqTpKaJOf6VgHg3XjSoUsqDf9pmJ1qn2OIokWJ8fsEkqvJu35ROgbgrD413l04gnnX6akYC3jkRDVj5zMVENUAFyB6XTrLNYBJ9+IPGLSrz6I5l10raZ2vCr+xuxk2av+6HtRc+cEP/TIrHRhMuwMSH4MZVFyRDAAAAABJRU5ErkJggg==" />
       </button>
     </div>
-    <div class="custom-cursor"></div>
+    <div class="custom-cursor hidden md:block lg:block 2xl:block"></div>
     <footer class="bg-neutral-700 text-white py-2 mt-48 md:py-4">
       <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between px-5">
         <div class="mt-3 md:-mt-0">
